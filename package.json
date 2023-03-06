@@ -1,0 +1,13 @@
+{
+  "name": "edge-project-sample",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "2.12.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish",
+    "test": "vitest"
+  }
+}
